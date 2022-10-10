@@ -18,8 +18,6 @@ def pokemon_data(pokemon_name):
            f"Base experience: {pokemon['base_experience']}.\n" \
            f"Type(s): {' and '.join(type_info['type']['name'] for type_info in pokemon['types'])}"
 
-# if you want to insert a variable type argument then put it inside <> brackets
-
 
 if __name__ == '__main__':
     app.run()
